@@ -44,7 +44,7 @@
 
 .content__cover>img:hover {
   filter: grayscale(10%);
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 .content__description>p:hover {
