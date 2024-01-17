@@ -1,7 +1,7 @@
 export const dataFake = [
   {
     id: 1,
-    title: 'NOVA SNIPER LW3-TUNDRA',
+    title: 'Nova sniper LW3-Tundra',
     description:
       'A nova sniper LW3-Tundra, chegou para derrubar armas como a DLQ-33 e a Locus do pódio de melhores fuzis franco-atirador do cod mobile, com um dano absurdo acima da cintura, que torna quase impossível o famoso teca-teca, que atualmente atormenta a todos que gostam de jogar de AWP.',
     photoCover:
@@ -25,7 +25,7 @@ export const dataFake = [
   },
   {
     id: 4,
-    title: 'Gameloop, o emulador oficial do CoD mobile',
+    title: 'Gameloop, o emulador oficial do CoD Mobile',
     description:
       'Para jogadores que desejam jogar Call of Duty: Mobile no PC, o GameLoop (anteriormente conhecido como Tencent Gaming Buddy) oferece a vantagem de um melhor controle. O GameLoop é desenvolvido pela Tencent e é o emulador oficial de Call of Duty: Mobile e outras séries de jogos da Tencent, como PUBG Mobile e Arena of Valor.Jogar Call of Duty: Mobile no PC hoje é tão simples que você pode começar sem nenhuma alteração ou ajuste. E o GameLoop suporta teclado pré-instalado e outras configurações, então você só precisa fazer o download e abri-lo. Baixe Call of Duty: Mobile e comece sua aventura hoje!',
     photoCover:
