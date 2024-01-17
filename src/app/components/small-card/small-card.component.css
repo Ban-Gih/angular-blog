@@ -12,6 +12,7 @@
   width: 300px;
   min-width: 200px;
   margin-right: 20px;
+  transition: filter 1s ease, transform 0.5s ease;
 }
 
 .small-card__title{
@@ -22,4 +23,13 @@
 
 .container__small-card__separator{
   margin-top: 10px;
+}
+
+.small-card__photo>img:hover {
+  filter: grayscale(10%);
+  transform: scale(1.5);
+}
+
+.small-card__title>h1 a:hover {
+  color: yellow;
 }

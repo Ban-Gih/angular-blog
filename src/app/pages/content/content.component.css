@@ -17,6 +17,7 @@
   width: 500px;
   min-width: 500px;
   height: 330px;
+  transition: filter 1s ease, transform 0.5s ease;
 }
 
 .content__description{
@@ -37,3 +38,19 @@
   margin-bottom: 15px;
 }
 
+.content__title>h1:hover {
+  color: yellow;
+}
+
+.content__cover>img:hover {
+  filter: grayscale(10%);
+  transform: scale(1.3);
+}
+
+.content__description>p:hover {
+  color: yellowgreen;
+}
+
+.container__content>a:hover{
+  color: red;
+}

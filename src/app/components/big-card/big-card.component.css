@@ -25,10 +25,24 @@
 .big-card__photo > img {
   width: 100%;
   min-width: 600px;
+  transition: filter 1s ease, transform 0.5s ease;
 }
 .image-caption{
   margin-top: 10px;
   text-align: center;
   font-size: 12px;
   font-weight: lighter;
+}
+
+.big-card__photo>img:hover {
+  filter: grayscale(10%);
+  transform: scale(1.2);
+}
+
+.big-card__title>h1 a:hover{
+  color: yellow;
+}
+
+.big-card__description>p>a:hover {
+  color: yellowgreen;
 }
