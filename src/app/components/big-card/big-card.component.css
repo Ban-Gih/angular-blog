@@ -46,3 +46,11 @@
 .big-card__description>p>a:hover {
   color: yellowgreen;
 }
+.big-card__title>h1 a:not(:first-child) {
+  cursor: pointer;
+  transition: font-size 1.5s ease;
+}
+
+.big-card__title>h1 a:hover {
+  font-size: 30px;
+}

@@ -33,3 +33,14 @@
 .small-card__title>h1 a:hover {
   color: yellow;
 }
+.small-card__title>h1 a{
+  font-size: 25px;
+}
+.small-card__title>h1 a:not(:first-child) {
+  cursor: pointer;
+  transition: font-size 1.5s ease;
+}
+
+.small-card__title>h1 a:hover {
+  font-size: 30px;
+}

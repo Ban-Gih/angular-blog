@@ -32,3 +32,12 @@
   filter: grayscale(10%);
   transform: scale(2);
 }
+
+.container__menu-bar>ul>li:not(:first-child) {
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+}
+
+.container__menu-bar>ul>li:hover {
+  font-size: 30px;
+}
